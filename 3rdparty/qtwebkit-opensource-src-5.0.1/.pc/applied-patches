@@ -1,0 +1,8 @@
+05_sparc_unaligned_access.diff
+stabs_format_debug_info.diff
+no_gc_sections.diff
+hurd.diff
+webkit_qt_hide_symbols.diff
+save_memory.diff
+devicePixelResolution.patch
+disable_geolocation_501.diff
