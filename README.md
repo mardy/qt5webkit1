@@ -35,13 +35,13 @@ crashes at runtime. Therefore, it's also possible to specify an alternate
 location for QtWebKit's sources.
 That said, building this module is as simple as running the following commands:
 
-  qmake
-  make
-  sudo make install
+    qmake
+    make
+    sudo make install
 
 After that, you should be able to run the examples:
 
-  qmlscene examples/test.qml
+    qmlscene examples/test.qml
 
 
 Get in touch!
