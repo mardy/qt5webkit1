@@ -1014,7 +1014,7 @@ QWebPage::QWebPage(QObject *parent)
     : QObject(parent)
     , d(new QWebPagePrivate(this))
 {
-    setView(qobject_cast<QWidget*>(parent));
+    setView(qobject_cast<QQuickWebView*>(parent));
 
     connect(this, SIGNAL(loadProgress(int)), this, SLOT(_q_onLoadProgressChanged(int)));
 #ifndef NDEBUG
